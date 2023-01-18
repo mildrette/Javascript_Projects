@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    word-spacing: 1ch;
+
+}
+
+li{
+    background-color: green;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+    width:150px;
+}
+
+ol{
+    background-color:orange;  
+    width:100px;
+    height: 72px;
+
+
+}
