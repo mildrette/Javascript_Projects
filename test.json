@@ -1,0 +1,29 @@
+{
+    "user": [
+        {
+        "name": ["mildred", "Blessing", "joy", "Vanessa"],
+        "skills": ["html", "Css", "Javascript", "Json"],
+        "age": [20, 25, 19, 48],
+        "address": {
+            "country": "Cameroon",
+            "city":"Nchang",
+            "area":"School side"
+        },
+        "iscoder": false, 
+        "ownlaptop":false
+        }
+    ],
+    
+        "name": ["mildred", "Vanessa"],
+        "skills": ["html", "Css", "Javascript", "Json"],
+        "age": [20, 25, 19, 48],
+        "address": {
+            "country": "Cameroon",
+            "city":"Bamenda",
+            "area":"Nacho Junction"
+        },
+        "iscoder": true, 
+        "ownlaptop":false
+
+}
+    

@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JSON</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
     <body>
         JSON TODO List:
-        <ul></ul>
+        <ol></ol>
         <script>
             let list ="";
-            // this is how you call a Json file from and html page
-            fetch('index.Json')
-            .then(response => response.json())
-            .then(json => {
-                json.user.forEach(user => {
-                list += `<li>${user.name}</li>`
+            // // this is how you call a Json file from and html page
+            fetch('https://jsonplaceholder.typicode.com/todos')
+             .then(response => response.json())
+             .then(json => {
+                 json.forEach(todo => {
+                 list += `<li>${todo.title}</li>`
+              });
+              document.querySelector("ol"). innerHTML = list;
+              console.log(json)
              });
-             document.querySelector("ul"). innerHTML = list;
-             console.log(json.user)
-            });
+
         </script>
         </div>
     </body>
