@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body>
+        JSON TODO List:
+        <ul></ul>
+        <script>
+            let list ="";
+            // this is how you call a Json file from and html page
+            fetch('index.Json')
+            .then(response => response.json())
+            .then(json => {
+                json.user.forEach(user => {
+                list += `<li>${user.name}</li>`
+             });
+             document.querySelector("ul"). innerHTML = list;
+             console.log(json.user)
+            });
+        </script>
+        </div>
+    </body>
+</html>
