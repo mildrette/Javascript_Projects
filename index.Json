@@ -1,0 +1,34 @@
+{
+    "user":[
+    {
+    "name":"mildred",
+    "age":20,
+    "iscoder": true,
+    "address":{
+        "country":"cameroon",
+        "city":"Bamenda",
+        "quarter":"nacho"},
+    "skills":["html", "css", "javascript"]
+},
+{
+    "name":"Zoe",
+    "age":34,
+    "iscoder": true,
+    "address":{
+        "country":"cameroon",
+        "city":"santa",
+        "quarter":"nacho"},
+        "skills":["html", "css", "javascript"]
+    },
+{
+   "name":"bless",
+    "age":19,
+    "iscoder": false,
+    "address":{
+        "country":"cameroon",
+        "city":"nchang",
+        "quarter":"nacho"},
+    "skills":[]
+}
+]
+}
