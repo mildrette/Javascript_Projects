@@ -1,45 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALCULATOR</title>
+    <title>Simple Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="Calculator.css">
+
 </head>
 <body>
-    
 
 
+  <div class="calculator">
+    <input type="text" id="display" placeholder="0">
+    <div class="buttons">
 
-    <form name="calculator">
-      <input type="text" name="display" id="display" readonly>
+     
       <br>
-      <input type="button" value="7">
-      <input type="button" value="8">
-      <input type="button" value="9">
-      <input type="button" value="/">
+      <button id="bracket-open"> (</button>
+      <button id="bracket-close"> )</button>
+      <button id="percentage"> %</button>
+      <button id="clear"> C</button>
+
       <br>
-      <input type="button" value="4">
-      <input type="button" value="5">
-      <input type="button" value="6">
-      <input type="button" value="*">
+
+      <button id="seven"> 7</button>
+      <button id="eight"> 8</button>
+      <button id="nine"> 9</button>
+      <button id="multiply"> *</button>
+
       <br>
-      <input type="button" value="1">
-      <input type="button" value="2">
-      <input type="button" value="3">
-      <input type="button" value="-">
+
+      <button id="Four"> 4</button>
+      <button id="five"> 5</button>
+      <button id="six"> 6</button>
+      <button id="subtract"> -</button>
       <br>
-      <input type="button" value="0">
-      <input type="button" value=".">
-      <input type="button" value="=" id="equal">
-      <input type="button" value="+">
+
+      <button id="one"> 1</button>
+      <button id="two"> 2</button>
+      <button id="three"> 3</button>
+      <button id="add"> +</button>
       <br>
-      <input type="button" value="C" id="clear">
-    </form>
+
+      <button id="zero"> 0</button>
+      <button id="dot"> .</button>
+      <button id="Equals-to"> =</button>
+      <button id="divide"> /</button>
+
+    </div>
+  </div>
+
 
 
     <script src="Calculator.js"></script>
-
-
-  </body>
+</body>
 </html>
-

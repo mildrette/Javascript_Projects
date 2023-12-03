@@ -1,48 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     text-align: center;
+    margin: 20px;
 }
 
-.container {
-    width: 300px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+#preview img {
+    max-width: 200px;
 }
 
-h1 {
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0;
-    border-bottom: 1px solid #ccc;
-}
-
-.completed {
-    text-decoration: line-through;
-}
-
-button.delete {
-    background-color: #ff4040;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-button.delete:hover {
-    background-color: #e60000;
+div {
+    margin: 10px 0;
 }
